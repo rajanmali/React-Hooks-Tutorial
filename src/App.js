@@ -8,7 +8,16 @@ function App() {
       {/* <ClassCounter /> */}
       <UseStateArray />
       <footer style={{ position: "fixed", bottom: "0" }}>
-        <p>@notrajanmali</p>
+        <p>
+          <a
+            href="https://github.com/rajanmali"
+            target="_blank"
+            rel="noreferrer"
+            className="App-link"
+          >
+            @notrajanmali
+          </a>
+        </p>
       </footer>
     </div>
   );

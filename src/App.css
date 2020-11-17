@@ -1,4 +1,5 @@
 .App {
+  text-align: center;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -6,10 +7,9 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-link {
+  color: #61dafb;
 }
