@@ -7,7 +7,7 @@ const HookCounter = () => {
     setCount(count + 1);
   };
 
-  return <button onClick={incrementCount}>Hook Count: {count}</button>;
+  return <button onClick={incrementCount}>Increase Hook Count: {count}</button>;
 };
 
 export default HookCounter;
