@@ -1,11 +1,12 @@
 import "./App.css";
-import UseStateArray from "./components/useState/UseStateArray";
+
 import Footer from "./components/Footer/Footer";
+import HookCounter from "./components/useEffect/HookCounter";
 
 function App() {
   return (
     <div className="App">
-      <UseStateArray />
+      <HookCounter />
       <Footer />
     </div>
   );
