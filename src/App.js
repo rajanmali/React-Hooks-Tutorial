@@ -1,12 +1,15 @@
 import "./App.css";
 // import ClassCounter from "./components/useState/ClassCounter";
-import HookCounterObject from "./components/useState/HookCounterObject";
+import UseStateArray from "./components/useState/UseStateArray";
 
 function App() {
   return (
     <div className="App">
       {/* <ClassCounter /> */}
-      <HookCounterObject />
+      <UseStateArray />
+      <footer style={{ position: "fixed", bottom: "0" }}>
+        <p>@notrajanmali</p>
+      </footer>
     </div>
   );
 }

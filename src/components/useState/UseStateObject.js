@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const HookCounterObject = () => {
+const UseStateObject = () => {
   const [name, setName] = useState({ firstName: "", lastName: "" });
 
   const handleInputChange = (event) => {
@@ -31,4 +31,4 @@ const HookCounterObject = () => {
   );
 };
 
-export default HookCounterObject;
+export default UseStateObject;
