@@ -12,9 +12,9 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: var(--secondary-colour);
+  padding-top: 3em;
   margin: 0 auto;
-  padding: 0 2em;
-  padding-top: 1em;
+  text-align: center;
 }
 
 .App-Footer {
