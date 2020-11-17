@@ -5,7 +5,6 @@
 }
 
 .App {
-  text-align: center;
   background-color: var(--primary-colour);
   min-height: 100vh;
   display: flex;
@@ -14,11 +13,12 @@
   font-size: calc(10px + 2vmin);
   color: var(--secondary-colour);
   margin: 0 auto;
-  padding-top: 3em;
+  padding: 0 2em;
+  padding-top: 1em;
 }
 
 .App-Footer {
-  position: absolute;
+  position: stick;
   left: 0;
   bottom: 0;
 }
