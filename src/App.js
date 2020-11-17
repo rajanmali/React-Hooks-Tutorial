@@ -1,12 +1,14 @@
-import "./App.css";
-
 import Footer from "./components/Footer/Footer";
-import HookCounter from "./components/useEffect/HookCounter";
+import IntervalClassCounter from "./components/useEffect/IntervalClassCounter";
+import IntervalHookCounter from "./components/useEffect/IntervalHookCounter";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <HookCounter />
+      <IntervalClassCounter />
+      <IntervalHookCounter />
       <Footer />
     </div>
   );

@@ -2,8 +2,6 @@ const Footer = () => {
   return (
     <footer className="App-Footer">
       <ul>
-        <li style={{ color: "#f1faee" }}>Find me at:</li>
-        &nbsp;
         <li>
           <a
             href="https://github.com/rajanmali"

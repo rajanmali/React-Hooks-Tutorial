@@ -14,13 +14,12 @@
   font-size: calc(10px + 2vmin);
   color: var(--secondary-colour);
   margin: 0 auto;
-  padding-top: 2em;
+  padding-top: 3em;
 }
 
 .App-Footer {
   position: absolute;
   left: 0;
-  right: 0;
   bottom: 0;
 }
 
