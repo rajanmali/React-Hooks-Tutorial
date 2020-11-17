@@ -1,15 +1,35 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: #40404b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
   margin: 0 auto;
 }
 
+.App-Footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to top, #282c34, #40404b);
+}
+
+.App-Footer > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.App-Footer > ul > li {
+  list-style-type: none;
+  font-size: calc(8px + 2vmin);
+  color: #61dafb;
+}
+
 .App-link {
   color: #61dafb;
+  font-size: calc(8px + 2vmin);
 }
