@@ -1,12 +1,20 @@
+:root {
+  --primary-colour: #023047;
+  --secondary-colour: #f1faee;
+  --accent-colour: #e63946;
+}
+
 .App {
   text-align: center;
-  background-color: #40404b;
+  background-color: var(--primary-colour);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--secondary-colour);
   margin: 0 auto;
+  padding-top: 2em;
 }
 
 .App-Footer {
@@ -14,7 +22,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(to top, #282c34, #40404b);
 }
 
 .App-Footer > ul {
@@ -26,10 +33,10 @@
 .App-Footer > ul > li {
   list-style-type: none;
   font-size: calc(8px + 2vmin);
-  color: #61dafb;
+  color: var(--accent-colour);
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--accent-colour);
   font-size: calc(8px + 2vmin);
 }
