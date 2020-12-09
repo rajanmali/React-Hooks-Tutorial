@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { UserContext, ChannelContext } from '../../App';
+import { UserContext, ChannelContext } from '../../../App';
 
 export default function HookComponent() {
   const user = useContext(UserContext);
