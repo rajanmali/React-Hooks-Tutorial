@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './components/Footer/Footer';
-import UseCallbackCount from './components/5.useCallback/1/UseCallbackCount';
+import UseRefTimer from './components/7.useRef/2/UseRefTimer';
 
 import './App.css';
 
@@ -50,7 +50,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <UseCallbackCount />
+      <UseRefTimer />
       <Footer />
     </div>
   );
