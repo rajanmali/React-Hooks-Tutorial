@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './components/Footer/Footer';
-import UseReducerDataFetch from './components/4.useReducer/5/useReducerDataFetch';
+import UseCallbackCount from './components/5.useCallback/1/UseCallbackCount';
 
 import './App.css';
 
@@ -50,7 +50,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <UseReducerDataFetch />
+      <UseCallbackCount />
       <Footer />
     </div>
   );
