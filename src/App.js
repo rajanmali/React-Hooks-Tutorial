@@ -1,8 +1,6 @@
-import React, { useReducer } from 'react';
+import React from 'react';
 import Footer from './components/Footer/Footer';
-import GlobalStateExampleOne from './components/4.useReducer/4/GlobalStateExampleOne';
-import GlobalStateExampleTwo from './components/4.useReducer/4/GlobalStateExampleTwo';
-import GlobalStateExampleThree from './components/4.useReducer/4/GlobalStateExampleThree';
+import UseReducerDataFetch from './components/4.useReducer/5/useReducerDataFetch';
 
 import './App.css';
 
@@ -36,21 +34,26 @@ import './App.css';
 // };
 
 // export const CountContext = React.createContext();
+/*  To useReducer and useContext for global state */
+// const [count, dispatch] = useReducer(reducerFunction, initialState);
+// return(
+//   <CountContext.Provider
+//       value={{ countState: count, countDispatch: dispatch }}
+//     >
+//       <GlobalStateExampleOne />
+//       <GlobalStateExampleTwo />
+//       <GlobalStateExampleThree />
+//     </CountContext.Provider>
+//     <Footer />
+// )
 
 function App() {
-  /*  To useReducer and useContext for global state */
-  // const [count, dispatch] = useReducer(reducerFunction, initialState);
-  // return(
-  //   <CountContext.Provider
-  //       value={{ countState: count, countDispatch: dispatch }}
-  //     >
-  //       <GlobalStateExampleOne />
-  //       <GlobalStateExampleTwo />
-  //       <GlobalStateExampleThree />
-  //     </CountContext.Provider>
-  //     <Footer />
-  // )
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <UseReducerDataFetch />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
